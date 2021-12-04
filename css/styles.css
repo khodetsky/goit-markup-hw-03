@@ -44,7 +44,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .header-padding {
@@ -57,7 +57,7 @@ ul {
   justify-content: space-between;
 }
 
-.portfolio-header .container {
+.header-border .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -315,6 +315,10 @@ ul {
 .address > .address-link:hover,
 .address > .address-link:focus {
   color: var(--accent-color);
+}
+
+.header-border {
+  border-bottom: 1px solid #ececec;
 }
 
 .portfolio-list {
