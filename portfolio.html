@@ -15,19 +15,19 @@
 
     <!-- Хедер -->
 
-    <header>
+    <header class="portfolio-header">
         <div class="container">
-            <nav>
+            <nav class="nav-container">
                 <a href="./index.html" lang="en" class="logo-header"><span class="logo-header-front">Web</span>Studio</a>
                 <ul class="nav-links">
-                    <li><a href="./index.html" class="nav-links-link">Студия</a></li>
-                    <li><a href="./portfolio.html" class="nav-links-link">Портфолио</a></li>
-                    <li><a href="" class="nav-links-link">Контакты</a></li>
+                    <li class="item"><a href="./index.html" class="nav-links-link">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="nav-links-link">Портфолио</a></li>
+                    <li class="item"><a href="" class="nav-links-link">Контакты</a></li>
                 </ul>
             </nav>
             <ul class="header-adress">
-                <li><a href="mailto:info@example.com" lang="en" class="header-adress-link">info@devstudio.com</a></li>
-                <li><a href="tel:+380991111111" class="header-adress-link">+38 096 111 11 11</a></li>
+                <li class="item"><a href="mailto:info@example.com" lang="en" class="header-adress-link">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380991111111" class="header-adress-link">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -41,60 +41,78 @@
                 <h1 hidden>Варианты работ</h1>
             
                 <ul class="portfolio-button-list">
-                    <li><button type="button" class="portfolio-button">Все</button></li>
-                    <li><button type="button" class="portfolio-button">Веб-сайты</button></li>
-                    <li><button type="button" class="portfolio-button">Приложения</button></li>
-                    <li><button type="button" class="portfolio-button">Дизайн</button></li>
-                    <li><button type="button" class="portfolio-button">Маркетинг</button></li>
+                    <li class="item"><button type="button" class="portfolio-button">Все</button></li>
+                    <li class="item"><button type="button" class="portfolio-button">Веб-сайты</button></li>
+                    <li class="item"><button type="button" class="portfolio-button">Приложения</button></li>
+                    <li class="item"><button type="button" class="portfolio-button">Дизайн</button></li>
+                    <li class="item"><button type="button" class="portfolio-button">Маркетинг</button></li>
                 </ul>
             
                 <!-- таблица с вариантами работ -->
             
                 <ul class="portfolio-list">
-                    <li>
-                        <img src="./images/techkryak.jpg" alt="Ноутбук с этим открытым веб-сайтом" width="370">
-                        <h2 class="portfolio-title">Технокряк</h2>
-                        <p class="portfolio-text">Веб-сайт</p>
+                    <li class="item">
+                        <img src="./images/techkryak.jpg" alt="Ноутбук с этим открытым веб-сайтом" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Технокряк</h2>
+                            <p class="portfolio-text">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/new-orlean.jpg" alt="постер с баскитболистами" width="370">
-                        <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="portfolio-text">Дизайн</p>
+                    <li class="item">
+                        <img src="./images/new-orlean.jpg" alt="постер с баскитболистами" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-text">Дизайн</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/seafood.jpg" alt="Логотип ресторана с рыбой" width="370">
-                        <h2 class="portfolio-title">Ресторан Seafood</h2>
-                        <p class="portfolio-text">Приложение</p>
+                    <li class="item">
+                        <img src="./images/seafood.jpg" alt="Логотип ресторана с рыбой" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Ресторан Seafood</h2>
+                            <p class="portfolio-text">Приложение</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/prime.jpg" alt="Наушники" width="370">
-                        <h2 class="portfolio-title">Проект Prime</h2>
-                        <p class="portfolio-text">Маркетинг</p>
+                    <li class="item">
+                        <img src="./images/prime.jpg" alt="Наушники" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Проект Prime</h2>
+                            <p class="portfolio-text">Маркетинг</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/boxes.jpg" alt="Коробки" width="370">
-                        <h2 class="portfolio-title">Проект Boxes</h2>
-                        <p class="portfolio-text">Приложение</p>
+                    <li class="item">
+                        <img src="./images/boxes.jpg" alt="Коробки" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Проект Boxes</h2>
+                            <p class="portfolio-text">Приложение</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/no-borders.jpg" alt="Монитор с этим открытым веб-сайтом" width="370">
-                        <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                        <p class="portfolio-text">Веб-сайт</p>
+                    <li class="item">
+                        <img src="./images/no-borders.jpg" alt="Монитор с этим открытым веб-сайтом" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                            <p class="portfolio-text">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/limited-edition.jpg" alt="Открытая книга" width="370">
-                        <h2 class="portfolio-title">Издание Limited Edition</h2>
-                        <p class="portfolio-text">Дизайн</p>
+                    <li class="item">
+                        <img src="./images/limited-edition.jpg" alt="Открытая книга" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Издание Limited Edition</h2>
+                            <p class="portfolio-text">Дизайн</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/lab.jpg" alt="Товарная бирка с логотипом компании" width="370">
-                        <h2 class="portfolio-title">Проект LAB</h2>
-                        <p class="portfolio-text">Маркетинг</p>
+                    <li class="item">
+                        <img src="./images/lab.jpg" alt="Товарная бирка с логотипом компании" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Проект LAB</h2>
+                            <p class="portfolio-text">Маркетинг</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/growing-business.jpg" alt="Ноутбук с этим открытым приложением" width="370">
-                        <h2 class="portfolio-title">Growing Business</h2>
-                        <p class="portfolio-text">Приложение</p>
+                    <li class="item">
+                        <img src="./images/growing-business.jpg" alt="Ноутбук с этим открытым приложением" width="370" class="image">
+                        <div class="card-border">
+                            <h2 class="portfolio-title">Growing Business</h2>
+                            <p class="portfolio-text">Приложение</p>
+                        </div>
                     </li>
                 </ul>
             
